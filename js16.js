@@ -10,7 +10,7 @@ function bai5(){
        
         } else if(i===3){
             contentHtml += i + ' '
-        }else if (i % 2 !==0 && i%3!==0){
+        }else if (i % 2 !==0 && i%3!==0 && i%5 !==0){
             contentHtml += i + ' '
         }
     }
